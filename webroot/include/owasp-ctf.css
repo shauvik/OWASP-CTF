@@ -1,0 +1,71 @@
+@charset "utf-8";
+* {padding:0;margin:0;}
+a {color:orange;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+h2 {color:white;font-size:14pt;font-weight:bold;}
+h1 {font-size:36pt;}
+hr {color:#B45F04;background-color:#B45F04; height:5px;width:800px;}
+#main-body {background-color:#000;font-family:Verdana; margin:0 auto; position:relative;width:980px;}
+#main-header {background:#cc7700;color:white;font-size:28pt;font-weight:bold;margin:25px 0px 5px 0px;}
+#main-header table tbody {background:white;color:#B45F04;font-size:28pt;font-weight:bold;margin:25px 0px 5px 0px;}
+#main-header table tbody small{font-size:16pt;}
+#main-menu {background:#DF7401;color:white;margin:7px 0px 5px 0px;padding:5px 16px 5px;}
+#main-menu table tbody td a{outline:#B45F04 solid 3px;padding:1px;font-size:12pt;font-weight:bold;}
+#main-info {background:#B45F04;color:white;font-size:10pt;font-weight:bold;margin:8px 0px 5px 0px;padding:5px 20px 5px;}
+#main-footer {background:#B45F04;color:white;font-size:6pt;margin:8px 0px 5px 0px;padding:5px 20px 5px;}
+#main-footer table tbody {color:white;font-size:6pt;margin:8px 0px 5px 0px;padding:5px 20px 5px;}
+#content {background:#EEE; margin:8px 0px 5px 0px; height:478px;}
+#multi-logo {background-image:url('../images/Background.png'); background-repeat:no-repeat; height:478px;}
+#small-logo {background-image:url('../images/CTF logo small.png');background-repeat:no-repeat;background-position:708px 211px;height:478px;}
+#big-logo {background-image:url('../images/CTF logo big2.png'); background-repeat:no-repeat;background-position:528px 41px;height:478px;}
+#big-logo2 {background-image:url('../images/CTF logo big.png'); background-repeat:no-repeat;background-position:530px 41px; height:478px;}
+#login {background:#cc7700;color:#cc7700;left:315px;outline:#ffbb00 solid 5px;padding:15px 25px;position:relative;top:111px;width:290px;}
+#register {background:#cc7700;color:#cc7700;left:270px;outline:#ffbb00 solid 5px;padding:15px 25px;position:relative;top:111px;width:370px;}
+#scoreboard { color:#B45F04;font-size:16pt;padding:15px 25px;}
+#mailbox { color:#cc7700;font-size:10pt;padding:15px 25px;}
+#mailbox th { font-size:14pt;padding:10px 0px;}
+#mailbox tr {border-bottom:1px solid #0099FF;}
+#mailbox tbody tr:hover {color:orange;}
+#mailboxtable {border-collapse:collapse;margin:10px;text-align:left;}
+#overlay {background-color:black;cursor:wait;opacity:0.5;height:800px;left:0px;top:0px;position:fixed;width:1600px;z-index:1000;}
+#mail {background-color:#feb;color:#cc7700;font-size:12px;left:15px;outline:#cc7700 solid 5px;position:absolute;padding:0px 0px;top:280px;z-index:1001;}
+#challengecontainer {background-color:#feb;color:#cc7700;font-size:12px;padding:10px 10px;}
+#getsolution {color:#cc7700;padding:0px 5px 0px 0px;text-align:right;}
+#solution {color:#cc7700;padding:20px 0px 0px 25px;}
+#mailmessage{border:0px;height:400px;width:660px;}
+#challengeframe{border:0px;min-height:400px;width:800px;height:400px;}
+div[id] #challengeframe {height:auto;}
+#message hr {left:15px;height:3px;position:relative;width:570px;}
+#message, #challenge {color:#cc7700;}
+#challenge {padding:10px 10px;}
+#mailheader {font-size:12px;font-weight:bold;padding:10px 0px 5px 25px;}
+#mailbody {padding:10px 0px 5px 25px;}
+#challenges {color:white;height:478px;overflow:auto;vertical-align:text-bottom;}
+#web,#network,#other {background-repeat:no-repeat;font-size:12px;height:70px;padding:0px 0px 15px 15px;vertical-align:bottom;width:74px;}
+#web {background-image:url('../images/web.png');}
+#web.done {background-image:url('../images/web-done.png');}
+#network {background-image:url('../images/network.png');}
+#network.done {background-image:url('../images/network-done.png');}
+#other {background-image:url('../images/other.png');}
+#other.done {background-image:url('../images/other-done.png');}
+#achieved {background-color:#00DD00; margin: 5px 5px;padding: 5px 5px; border:3px solid green; font-size: 14pt; color: white;}
+#error {background-color:#DD0000; margin: 5px 5px;padding: 5px 5px; border:3px solid red; font-size: 14pt; color: white;}
+#info {background-color:#0099FF; margin: 5px 5px;padding: 5px 5px; border:3px solid orange; font-size: 14pt; color: white;}
+.button {background:#B45F04; border:3px solid #cc7700; padding: 1px 7px;color:white;}
+.closing {background-color:#cc7700;color:white;font-weight:bold;padding:2px 5px 5px 2px;text-align:right;}
+.error {color:red;font-size:12pt;font-weight:bold;}
+.logo {margin:5px 0px 0px 5px;}
+.otherLogo {margin:10px 10px 0px 0px;outline:#DF7401 solid 5px;}
+.disabled {color:#0033CC;}
+.hidden {visibility:hidden;}
+.pos1,.pos2,.pos3{font-weight:bold;}
+.rowOdd {background-color:#919191;}
+.rowEven {background-color:#e1e1e1;}
+.white {color:white;}
+.p50 {border:2px solid green;}
+.p85 {border:2px solid orange;}
+.p100 {border:2px solid red;}
+.p0 {border:2px solid transparent;}
