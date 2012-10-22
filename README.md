@@ -10,7 +10,7 @@ INSTRUCTIONS FOR SETUP
 1. Checkout project source
 git clone https://github.com/shauvik/OWASP-CTF.git
 
-2. Add the challenges to the webroot/challenges/<type>/<challenge_id> folder. 
+2. Add the challenges to the webroot/challenges/[type]/[challenge_id] folder. 
 
 3. Configure apache to serve the webroot folder as the DocumentRoot
 
